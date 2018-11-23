@@ -1,0 +1,17 @@
+name: intercom
+description: Intercom Integration Socket
+
+endpoints:
+  user-hash:
+    description: intercom auth hash
+    outputs:
+      success:
+        description: Success
+      fail:
+        exit_code: 400
+        description: Fail
+
+config:
+  SECRET_ID:
+    description: Intercom app secret
+    required: true
