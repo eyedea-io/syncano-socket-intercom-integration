@@ -31,5 +31,5 @@ const s = new Syncano(<instaneName>)
 
 s.setToken(<userToken>)
 
-const suggestions = await s.post('intercom/user-hash')
+const data = await s.post('intercom/user-hash')
 ```
